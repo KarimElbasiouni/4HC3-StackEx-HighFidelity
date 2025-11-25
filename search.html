@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StackExchange Prototype • Search Results</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="logo-lockup">
+        <span class="logo-icon" aria-hidden="true"></span>
+        StackExchange
+      </div>
+      <form class="search-bar" method="get" action="search.html">
+        <input type="text" name="q" placeholder="Search" aria-label="Search" />
+        <button type="submit" aria-label="Submit search">🔍</button>
+      </form>
+      <div class="user">
+        <span class="user-avatar" aria-hidden="true"></span>
+        User123
+      </div>
+    </header>
+
+    <div class="layout-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a class="nav-item" href="index.html">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M4 11 L12 4 L20 11 V20 H4 Z" fill="currentColor"></path>
+                  </svg>
+                </span>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="nav-item active" href="search.html">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="6" fill="none" stroke="currentColor" stroke-width="2"></circle>
+                    <line x1="16" y1="16" x2="21" y2="21" stroke="currentColor" stroke-width="2"></line>
+                  </svg>
+                </span>
+                Search
+              </a>
+            </li>
+            <li>
+              <a class="nav-item" href="question.html">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M5 7 H19 V9 H5 Z M5 11 H19 V13 H5 Z M5 15 H13 V17 H5 Z" fill="currentColor"></path>
+                  </svg>
+                </span>
+                Questions
+              </a>
+            </li>
+            <li>
+              <a class="nav-item" href="question.html#answers">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M4 6 H20 V15 H10 L7 18 V15 H4 Z" fill="currentColor"></path>
+                  </svg>
+                </span>
+                Answers
+              </a>
+            </li>
+            <li>
+              <a class="nav-item" href="#">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 5 L18 19 H16 L14.8 16 H9.2 L8 19 H6 Z M11.2 14 H12.8 L12 11.8 Z" fill="currentColor"></path>
+                  </svg>
+                </span>
+                AI Assistant
+              </a>
+            </li>
+            <li>
+              <a class="nav-item" href="#">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M7 5 H17 V20 L12 16 L7 20 Z" fill="currentColor"></path>
+                  </svg>
+                </span>
+                Bookmarked
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <section class="page-panel">
+          <h1 class="page-title">Search Results</h1>
+          <p>Showing results for: Lorem ipsum</p>
+          <p class="meta-row" style="margin-top: 8px;">
+            <span>1 result found</span>
+          </p>
+          <div class="card-list" style="margin-top: 24px;">
+            <a class="card clickable" href="question.html">
+              <article>
+                <h3>How to design a StackExchange-style Q&amp;A page?</h3>
+                <p class="body-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor nisl nec
+                  elit pulvinar, vitae volutpat justo imperdiet.
+                </p>
+                <div class="meta-row">
+                  <span>13 votes</span>
+                  <span>3 answers</span>
+                </div>
+              </article>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
