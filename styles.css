@@ -435,7 +435,7 @@ summary .chevron {
   transition: transform 0.2s;
 }
 
-details[open] summary .chevron {
+details[open] > summary .chevron {
   transform: rotate(225deg);
 }
 
