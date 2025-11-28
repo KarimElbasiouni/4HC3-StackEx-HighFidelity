@@ -55,14 +55,15 @@ header.top-bar {
   left: 0;
   right: 0;
   height: 88px;
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
+  background: #0c1d46;
+  border-bottom: 1px solid #15275c;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 48px;
   z-index: 20;
   box-shadow: 0 10px 30px rgba(15, 17, 19, 0.05);
+  color: #eef2ff;
 }
 
 .logo-lockup {
@@ -136,9 +137,9 @@ header.top-bar .user {
 
 .sidebar {
   padding: 24px;
-  background: var(--surface);
+  background: #a6c2f1;
   border-radius: var(--radius-lg);
-  border: 1px solid var(--border);
+  border: 1px solid #c3d4ff;
   box-shadow: var(--shadow);
   align-self: stretch;
   position: sticky;
@@ -187,7 +188,7 @@ header.top-bar .user {
 }
 
 .nav-item.active {
-  background: #dfe3e7;
+  background: #c7d7ff;
   font-weight: 600;
 }
 
